@@ -1,0 +1,12 @@
+.value{
+    color: white;
+    font-weight: 400;
+}
+.title{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(212, 175, 52);
+}
+.btn3{
+    border-style: none;
+}

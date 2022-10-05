@@ -1,0 +1,21 @@
+.add_value{
+   height: auto;
+   color: blueviolet;
+   font-size: 10px;
+   /* margin-left: 10px;
+   margin-right: 10px; */
+   font-family: 'Fredoka One', cursive;
+}
+.off_value{
+    width: 100%;
+    height: auto;
+   color: red;
+   font-size: 20px;
+   font-family: 'Fredoka One', cursive;
+}
+.add_div{
+    background-color: aliceblue;
+    width: 100%;
+    text-align: center;
+    
+}

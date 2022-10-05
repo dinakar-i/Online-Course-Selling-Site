@@ -1,0 +1,208 @@
+.div{
+    width: 100%;
+    background-color: rgba(0, 3, 1, 0.61);
+    height: 500px;
+    margin-top: 20px;
+    transition: 0.2s;
+    border-radius: 10px;
+}
+.img{
+    border-radius: 10px;
+}
+.bot_div{
+    padding: 2%;
+    background-color: #4f9a97;
+    margin-top: 20px;
+    color: white;
+}
+.h4{
+    font-family: 'Concert One', cursive;
+    text-align: center;
+    /* margin-left:10%;
+    margin-right: 10%; */
+    text-decoration: none;
+}.path_div{
+    margin-top: 20px;
+    margin-left: 2%;
+}
+.qus{
+    margin-left: 1%;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    color: black;
+   font-size: 25px;
+
+}.qus_box{
+    width:50%;
+    border: none;
+    outline: none;
+    background-color: #309F8E;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Bebas Neue', cursive;
+    border-width: 1px;
+    color:black;
+}.list_qustions{
+    box-shadow: 2px 2px 10px 0.5px black;
+    background-color: #309F8E;
+    border-radius: 5px;
+    height:250px;
+    overflow: hidden;
+    transition: 1s;
+}
+.error_img{
+    width: 80%;
+    height: 80%;
+    margin-left:10%;
+    margin-right: 10%;
+    margin-top:30px;
+}
+.video_top_div{
+    width: 100%;
+    height: 100px;
+    background-color: #309F8E;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.video_bottom_div{
+    width: 100%;
+    height: 100px;
+    background-color: #309F8E;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.video_top_title_div{
+text-align: center;
+margin-top: 5%;
+color: white;
+font-family: 'Pacifico', cursive;
+}.first_circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    margin-top: 5%;
+    margin-left: 10%;
+    background-color: black;
+    float: left;
+    margin-right: 0px;
+}.glow{
+    color: #15AABF;
+    text-align: center;
+    margin-left: 12px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.glow {
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+.qus_list{
+    padding: 1%;
+    font-size: 20px;
+    color: blueviolet;
+   font-weight: 900;
+   font-family: 'Staatliches', cursive;
+}
+.qus_head{
+    margin-left:4%;
+    margin-top: 20px;
+  color: white;
+}
+.ico{
+    font-size: 40px;
+    position:absolute;
+    top:350px;
+    left:47%;
+    color: white;
+    z-index: 20px;
+}
+.video_div{
+    height: 600px;
+    width: 100%;
+}
+.qus_btn{
+    background-color: black;
+    color: white;
+    width: 75px;
+    border:none;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Do Hyeon', sans-serif;
+}
+.qus_btn:hover{
+    box-shadow: 1px 1px lightgray;
+    color: #4F9A97;
+    box-shadow: 0.9px 0.9px 3px 0.9px black;
+}
+.img{
+    opacity: 60%;
+}
+.qus_ico{
+    color: black;
+    font-size: 45px;
+    margin-left: 1%;
+    margin-top:1%;
+    /* margin-left: 20px; */
+    /* margin-top: 50px; */
+}
+.div:hover{
+    border-style: solid;
+    border-color: #309F8E;
+    border-width: 3px;
+    border-radius: 10px;
+}
+.nav_bar{
+    overflow: hidden;
+    background-color: whitesmoke;
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    z-index: 100;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-bottom-color: #309F8E;
+    border-width: 10px;
+    border-bottom-style: solid;
+}
+.qus_div{
+    box-shadow: 2px 2px 10px 0.5px black;
+    margin-top: 30px;
+    background-color: #309F8E;
+    border-radius: 5px;
+}
+@media(max-width:425px){
+  .div{
+      height:50%;
+  }
+  .ico{
+    top:200px;
+    left:45%;
+    font-size: 20px;
+}
+.h4{
+      font-size:5px;
+  }
+  .video_div{
+    height: 300px;
+    width: 30%;
+  }
+  .first_circle{
+      margin-left:20px;
+      margin-bottom:5px;
+  }
+}
+
+  
+

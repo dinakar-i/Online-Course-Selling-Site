@@ -1,0 +1,30 @@
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELLOW SSL_REDIRECT:spoofcolors.com
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} (www\.)?spoofcolors.com
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# DO NOT REMOVE THIS LINE AND THE LINES BELLOW SSL_REDIRECT:spoofcolors.com
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+# DO NOT REMOVE THIS LINE AND THE LINES BELLOW UPGRADE_INSECURE_REQUESTS:spoofcolors.com
+Header always set Content-Security-Policy: upgrade-insecure-requests
+# DO NOT REMOVE THIS LINE AND THE LINES BELLOW UPGRADE_INSECURE_REQUESTS:spoofcolors.com
+
+
+
+
+
+
+
+
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW HOTLINKID:uUVLuZevLM
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?spoofcolors.com/.*$      [NC]
+RewriteRule .*\.(gif|tiff|mpg|zip|mp3|psd|rar|wma|avi|png|jpeg|bmp|mpeg|mov|exe|swf|pdf)$ http://spoofcolors.com [R,NC]
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE uUVLuZevLM:HOTLINKID
+

@@ -1,0 +1,28 @@
+.log_div{
+    width:100%;
+    background-color:#D1ECF1;
+    border-radius:5px;
+    height:auto;
+}
+.log_txt{
+    color:blueviolet;
+    font-size:18px; 
+    /* text-align:center; */
+    margin-top:10px;
+    font-family: 'Fredoka One', cursive;
+}
+.phno::-webkit-outer-spin-button,
+.phno::-webkit-inner-spin-button {
+  display: none;
+}
+#otp_valid{
+    display:none;
+}
+.log{
+    color:gray;
+    font-size: 15px;
+    font-family: 'Fredoka One', cursive;
+}
+.log:hover{
+    color: blue;
+}

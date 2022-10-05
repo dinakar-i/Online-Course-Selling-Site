@@ -1,0 +1,69 @@
+.pop_detail{
+    margin-top: -300px;
+    width: 500px;
+    height: 600px;
+    margin-left: 230px;
+    background-color: white;
+    position: absolute;
+    z-index: 20;
+    border-radius: 10px;
+    position: fixed;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: scroll;
+    display:none;
+}
+.li_views{
+    padding: 2%;
+    background-color: blueviolet;
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-family: 'Patua One', cursive;
+}
+.head_bi{
+    position: fixed;
+    width: 500px;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: aqua;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.back_arow{
+    font-size: 30px;
+    margin-top: 10px;
+    position: absolute;
+    left: 15px;
+    
+}
+.h4{
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 20px;
+    margin-left: 30px;
+}.del{
+    position: absolute;
+    margin-left: 30%;
+    padding: 0.5%;
+    background-color: orange;
+    border-radius: 10px;
+}.del:hover{
+    color: white;
+}.line{
+    margin-top: 0px;
+}.need{
+    margin-left: 30%;
+}
+/*review-style*/
+.reviews_title{
+    margin-left: 20px;
+    margin-top: 20px;     
+}.reviews_list{
+    color: gray;
+    padding: 1%;
+   background-color: lightgreen;
+}.del_del{
+    margin-left: 20px;
+    position: absolute;
+}
