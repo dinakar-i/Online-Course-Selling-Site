@@ -84,7 +84,7 @@ if (!isset($_SESSION['zdk'])) {
         </div>
     </section>
 
-    <!-- jquery -->
+    <!-- jquery-->
 
     <script src="js/jquery-1.12.1.min.js"></script>
     <!-- popper js -->
